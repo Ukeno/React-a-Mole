@@ -4,7 +4,7 @@ import MoleHill from './molehill.png'
 const EmptySlot = (props) => {
 
     useEffect(() => {
-        let randSeconds = Math.ceil(Math.random() * 5000)
+        let randSeconds = Math.ceil(Math.random() * 10000)
         let timer = setTimeout(() => {
             props.toggle(true)
         }, randSeconds)
@@ -13,7 +13,7 @@ const EmptySlot = (props) => {
 
     return (
         <div>
-            <img style={{'width': '10vw'}} src={MoleHill} alt ='Mole Hill'/>
+            <img  style={{'width': '10vw'}}src={MoleHill} alt ='Mole Hill'/>
         </div>
     )
 }

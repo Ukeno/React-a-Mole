@@ -15,20 +15,19 @@ function App() {
     }
 
     return (
-      <div>
+      <div style={{backgroundImage: `url("https://cdn.pixabay.com/photo/2017/04/04/23/54/rush-2203494_960_720.jpg")`}}>
         {hills}
       </div>
     )
   }
-
+  
   return (
     <div className="App">
       <h1>React-a-Mole!</h1>
-      {score}
+      <p>{score}</p>
       {createMoleHill()}
     </div>
   )
 }
 
 export default App
-
