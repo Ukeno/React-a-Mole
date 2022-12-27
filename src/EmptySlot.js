@@ -1,3 +1,5 @@
+// This creates the empty slot when mole is not present.
+
 import { useEffect } from "react"
 import MoleHill from './molehill.png'
 
